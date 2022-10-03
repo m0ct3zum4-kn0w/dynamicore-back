@@ -6,7 +6,8 @@ from routes.api import Api
 from starlette.responses import RedirectResponse
 
 origins = [
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "https://dynamic-front.herokuapp.com"
 ]
 
 security = HTTPBearer()
